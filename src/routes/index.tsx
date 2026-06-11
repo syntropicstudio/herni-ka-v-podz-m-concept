@@ -40,6 +40,7 @@ function Index() {
         <Hero />
         <WhyParents />
         <Experience />
+        <StoryBand />
         <Birthday />
         <Gallery />
         <Testimonials />
