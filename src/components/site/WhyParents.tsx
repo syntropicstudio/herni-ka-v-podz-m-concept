@@ -29,14 +29,14 @@ export function WhyParents() {
   return (
     <section id="proc" className="bg-background py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6">
-        <div className="reveal mx-auto max-w-2xl text-center">
-          <span className="text-xs font-semibold uppercase tracking-[0.25em] text-sage-foreground">
+        <div class="reveal mx-auto max-w-2xl text-center">
+          <span className="eyebrow text-sage-foreground">
             Proč právě my
           </span>
-          <h2 className="mt-4 text-3xl text-foreground sm:text-4xl md:text-5xl">
-            Proč si nás rodiče oblíbili
+          <h2 className="mt-4 h-section text-foreground">
+            Proč si nás rodiče <span className="serif-italic text-primary">oblíbili</span>
           </h2>
-          <p className="mt-4 text-muted-foreground">
+          <p className="mt-5 text-lg text-muted-foreground">
             Vytvořili jsme místo, kde mají radost děti i jejich rodiče.
           </p>
         </div>
