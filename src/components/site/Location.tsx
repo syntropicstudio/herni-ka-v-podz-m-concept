@@ -9,11 +9,11 @@ export function Location() {
     <section id="kontakt" className="bg-secondary/40 py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6">
         <div className="reveal mx-auto max-w-2xl text-center">
-          <span className="text-xs font-semibold uppercase tracking-[0.25em] text-sage-foreground">
+          <span className="eyebrow text-sage-foreground">
             Kontakt
           </span>
-          <h2 className="mt-4 text-3xl text-foreground sm:text-4xl md:text-5xl">
-            Kde nás najdete
+          <h2 className="mt-4 h-section text-foreground">
+            Kde nás <span className="serif-italic text-primary">najdete</span>
           </h2>
         </div>
 
