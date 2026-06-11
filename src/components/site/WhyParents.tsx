@@ -29,7 +29,7 @@ export function WhyParents() {
   return (
     <section id="proc" className="bg-background py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6">
-        <div class="reveal mx-auto max-w-2xl text-center">
+        <div className="reveal mx-auto max-w-2xl text-center">
           <span className="eyebrow text-sage-foreground">
             Proč právě my
           </span>
