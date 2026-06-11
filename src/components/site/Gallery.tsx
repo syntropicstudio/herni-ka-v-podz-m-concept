@@ -19,11 +19,11 @@ export function Gallery() {
     <section id="galerie" className="bg-secondary/40 py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6">
         <div className="reveal mx-auto max-w-2xl text-center">
-          <span className="text-xs font-semibold uppercase tracking-[0.25em] text-sage-foreground">
+          <span className="eyebrow text-sage-foreground">
             Galerie
           </span>
-          <h2 className="mt-4 text-3xl text-foreground sm:text-4xl md:text-5xl">
-            Nahlédněte k nám
+          <h2 className="mt-4 h-section text-foreground">
+            Nahlédněte <span className="serif-italic text-primary">k nám</span>
           </h2>
           <p className="mt-4 text-muted-foreground">
             Atmosféra, která mluví za vše.
