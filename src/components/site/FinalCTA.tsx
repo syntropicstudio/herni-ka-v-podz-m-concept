@@ -5,8 +5,9 @@ export function FinalCTA() {
       <span className="animate-float-rev pointer-events-none absolute right-[12%] bottom-[18%] h-28 w-28 rounded-full bg-pink/40" />
 
       <div className="reveal relative mx-auto max-w-3xl px-6 text-center">
-        <h2 className="text-3xl leading-tight text-foreground sm:text-4xl md:text-5xl">
-          Přijďte si užít společný čas s vašimi dětmi
+        <h2 className="h-section text-foreground">
+          Přijďte si užít společný čas{" "}
+          <span className="serif-italic text-primary">s vašimi dětmi</span>
         </h2>
         <p className="mx-auto mt-6 max-w-xl text-lg leading-relaxed text-muted-foreground">
           Dveře naší herničky a kavárny jsou otevřené pro celou rodinu. Zastavte

@@ -25,18 +25,20 @@ export function Experience() {
         </div>
 
         <div>
-          <span className="reveal block text-xs font-semibold uppercase tracking-[0.25em] text-sage-foreground">
+          <span className="reveal block eyebrow text-sage-foreground">
             Náš příběh
           </span>
-          <h2 className="reveal mt-4 text-3xl text-foreground sm:text-4xl md:text-5xl">
-            Více než jen hernička
+          <h2 className="reveal mt-4 h-section text-foreground">
+            Více než jen <span className="serif-italic text-primary">hernička</span>
           </h2>
-          <p className="reveal mt-5 text-lg leading-relaxed text-muted-foreground">
-            Zatímco vaše děti objevují svět, hrají si a poznávají nové
-            kamarády, vy si můžete v klidu vychutnat kávu, přečíst pár stránek
-            nebo si jen oddychnout. Vytvořili jsme prostor, kde se dobře cítí
-            celá rodina – beze spěchu a se vším pohodlím.
+          <p className="reveal mt-6 text-lg leading-relaxed text-muted-foreground">
+            Představte si odpoledne, kdy se vaše dítě s rozzářenýma očima vrhá do
+            hry, poznává nové kamarády a objevuje svět – zatímco vy poprvé za
+            celý den sedíte, držíte v ruce teplou kávu a jen se díváte. Žádný
+            spěch, žádný stres. Jen společné chvíle, na které budete oba rádi
+            vzpomínat.
           </p>
+
 
           <div className="mt-10 grid gap-5 sm:grid-cols-2">
             {highlights.map((h, i) => (
