@@ -4,6 +4,7 @@ import { Navbar } from "@/components/site/Navbar";
 import { Hero } from "@/components/site/Hero";
 import { WhyParents } from "@/components/site/WhyParents";
 import { Experience } from "@/components/site/Experience";
+import { StoryBand } from "@/components/site/StoryBand";
 import { Birthday } from "@/components/site/Birthday";
 import { Gallery } from "@/components/site/Gallery";
 import { Testimonials } from "@/components/site/Testimonials";
