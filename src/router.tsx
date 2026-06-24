@@ -10,6 +10,8 @@ export const getRouter = () => {
     context: { queryClient },
     scrollRestoration: true,
     defaultPreloadStaleTime: 0,
+    // import.meta.env.BASE_URL is '/' in dev/SSR and '/herni-ka-v-podz-m-concept/' for Pages build.
+    basepath: import.meta.env.BASE_URL,
   });
 
   return router;

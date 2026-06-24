@@ -99,7 +99,9 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       },
     ],
   }),
-  shellComponent: RootShell,
+  // shellComponent renders the full HTML document shell for SSR.
+  // In SPA/static builds (GitHub Pages), import.meta.env.SSR is false so we skip it.
+  shellComponent: import.meta.env.SSR ? RootShell : undefined,
   component: RootComponent,
   notFoundComponent: NotFoundComponent,
   errorComponent: ErrorComponent,
@@ -124,6 +126,8 @@ function RootComponent() {
 
   return (
     <QueryClientProvider client={queryClient}>
+      {/* In SPA mode, inject head metadata (meta tags, stylesheet link) into document.head */}
+      {!import.meta.env.SSR && <HeadContent />}
       {/* Required: nested routes render here. Removing <Outlet /> breaks all child routes. */}
       <Outlet />
     </QueryClientProvider>
